@@ -9,47 +9,59 @@
     <title></title>
   </head>
   <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Ragu's personal linkedin</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="{{url_for('core.index')}}">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Experience & Skills
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <a class="dropdown-item" href="#">Certifications</a>
-                              <a class="dropdown-item" href="#">Experience</a>
-                              <a class="dropdown-item" href="#">Technologies that I enjoy...</a>
-                            </div>
-                          </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="{{url_for('core.about')}}">About website</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Projects/Interests
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Current Projects</a>
-                        <a class="dropdown-item" href="#">Projects</a>
-                        <a class="dropdown-item" href="#">Future goals</a>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-    <div class="container">
-        {% block content %}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Ragu's personal linkedin</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="{{url_for('core.index')}}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Experience & Skills
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Certifications</a>
+                          <a class="dropdown-item" href="#">Experience</a>
+                          <a class="dropdown-item" href="#">Technologies that I enjoy...</a>
+                        </div>
+                      </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{url_for('core.about')}}">About website</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projects/Interests
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Current Projects</a>
+                    <a class="dropdown-item" href="#">Projects</a>
+                    <a class="dropdown-item" href="#">Future goals</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+    </nav>
+    {% block content %}
 
-        
-        {% endblock %}
-    </div>
-  </body>
+
+    {% endblock %}
+  <nav class="navbar fixed-bottom navbar-dark bg-dark justify-content-center">
+    <span class="navbar-text">Website programmed using</span>
+    &nbsp;&nbsp;
+    <a class="nav-text" href="https://www.python.org/" target="_blank">Python</a>
+    &nbsp;&nbsp;&nbsp;
+    <a class="nav-text" href="https://palletsprojects.com/p/flask/" target="_blank">Flask</a>
+    &nbsp;&nbsp;&nbsp;
+    <span class="navbar-text">and deployed using</span>
+    &nbsp;&nbsp;
+    <a class="nav-text" href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a>
+    &nbsp;&nbsp;&nbsp;
+    <a class="nav-text" href="https://cloud.google.com/appengine/" target="_blank">Google App Engine</a>
+
+  </nav>
+</body>
 </html>
