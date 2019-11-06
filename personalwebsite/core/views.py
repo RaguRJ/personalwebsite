@@ -9,7 +9,7 @@ core = Blueprint('core',__name__)
 # Creating route for the index/home page
 @core.route('/')
 def index(): # Function name to be specified in {{url_for('core.index')}}
-    return render_template('intro.html')
+    return render_template('intro_test.html')
 
 # Creating route for the about website page
 @core.route('/about')

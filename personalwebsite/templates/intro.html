@@ -1,18 +1,22 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="jumbotron jumbotron-fluid">
-        <div class="container container-fluid">
-        <img src="static/profile_thumbnail.jpg" class="rounded-circle float-right" alt="Rounded Image" alt="Banner" data-toggle="modal" data-target="#myModal">
-        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
-                <div class="modal-dialog">
-                        <div class="modal-content">
-                                <div class="modal-body">
-                                        <img src="static/profile_pic.jpg" class="img-fluid">
-                                </div>
-                        </div>
-                </div>
-        </div>
-        <h1 class="display-4">About me</h1>
-</div>
-</div>     
+              <div class="d-flex">
+                        <main class="col" role="main">
+                                <div id="intro" class="jumbotron jumbotron-fluid d-flex">
+                                        <div class="container container-fluid">
+                                                <img src="static/profile_thumbnail.jpg" class="rounded-circle float-right" alt="Rounded Image" alt="Banner" data-toggle="modal" data-target="#myModal"> <!--Adds click to zoom function-->
+                                                <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+                                                        <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                        <div class="modal-body">
+                                                                                <img src="static/profile_pic.jpg" class="img-fluid">
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <h1 class="display-4">About me</h1>
+                                        </div>
+                                </div> 
+                        </main>
+                </div>             
 {% endblock %}
