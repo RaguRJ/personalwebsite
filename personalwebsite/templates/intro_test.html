@@ -4,19 +4,14 @@
   <div class="container-fluid">    
     <div class="row">
           <!-- <nav class="col-md-2 d-none d-md-block bg-light sidebar fixed-top nav-offset" id="navbar2"> -->
-          <nav class="col-md-2 d-none d-md-block bg-white sidebar fixed-top nav-offset" id="navbar2">
+          <nav class="col-2 col-xl-2 d-none d-md-block bg-white sidebar fixed-top nav-offset" id="navbar2">
             <div class="sidebar-sticky">
               <!-- <div class="sidebar-sticky"> -->
               <!-- <ul class="nav flex-column"> -->
                 <ul class="nav nav-pills nav-stacked spaced">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#aboutme">
+                  <a class="nav-link active" href="#profile">
                     About me <span class="sr-only">(current)</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#summary">
-                    Summary
                   </a>
                 </li>
                 <li class="nav-item">
@@ -53,15 +48,16 @@
             </div>
           </nav>
       
-          <main class="col-md-9 ml-sm-auto col-lg-10 px-4" role="main"><div class="chartjs-size-monitor" style="left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; visibility: hidden; position: absolute; z-index: -1; pointer-events: none;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-            <div id="aboutme" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom bg-light">    
+          <main class="col-10 col-xl-10 ml-sm-auto px-4" role="main"><div class="chartjs-size-monitor" style="left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; visibility: hidden; position: absolute; z-index: -1; pointer-events: none;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+          <!-- <main class="col-md-9 ml-sm-auto col-lg-10 px-4" role="main"><div class="chartjs-size-monitor" style="left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; visibility: hidden; position: absolute; z-index: -1; pointer-events: none;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div> -->
+            <div id="profile" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 bg-light">    
               <div class="container text-center">
                   <h2>Profile</h2>
-                  <p>I am an engineer enthusiastic about computers...</p>
+                  <p class="lead">I am an engineer enthusiastic about computers...</p>
                   <hr />
                   <div class = "row">
                     <div class="col-md-4">
-                      <h3>About me</h3>
+                      <h4>About me</h4>
                       <p align = "left">Network Engineer specializing in wireless networking (mobility and access control), Cloud Networking, Route/Switch and security with a special interest in Google cloud, Linux and programming with Python.</p>
                     </div>
                     <div class="col-md-4 text-center">
@@ -101,7 +97,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <h3>Details</h3>
+                        <h4>Details</h4>
                         <p align="left">
                           <strong>Name:</strong>
                           <br />
@@ -123,38 +119,234 @@
                   <br>
               </div>
             </div>
-            <div id="summary" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom bg-white"> 
-              <div class="container">
-                  <h1>Summary</h1>
-                  <br>
-                  <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                  <br>
-              </div>
-            </div>        
-            <div id="experience" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom bg-light">         
-              <div class="container">
-                  <h1>Experience</h1>
-                  <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+            <div id="experience" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 bg-white">         
+              <div class="container text-center">
+                  <h2>Experience</h2>
+                  <hr />
+                  <div class="container">
+                      <div class="row" id="experience-row">
+                          <div class="col-md-4 div-text-align"> 
+                            <h4>Vandis Inc.</h4>
+                            <p class="text-muted font-italic">
+                              Feb 2018 - Present
+                            </p>
+                          </div>
+                          <div class="col-md-8 div-text-align">
+                            <p>
+                              <strong>Network Engineer</strong><br /><br />
+                              <span>
+                                My primary job responsibilities align with being a solutions architect and an implementation engineer. I constantly update myself with the latest technology offerings in the realm of wireless LAN, cloud computing, cyber-security, DevOps/network automation, route/switch so I can design and recommend the most suitable solution based on a customer's requirement. The other half of my responsibilities include implementing an architecture/design/solution either building a network from scratch or integrating design to an existing customer network. Notable projects include migration of an on-prem network into google cloud using Terraform, Azure express route migration, designed and implement Aruba OS8 wireless networks, designed and implemented Clearpass network access control solutions.
+                              </span><br /><br />
+                              <a href="https://goo.gl/maps/1FHhYZoV9P6bpTA27" target="_blank" class="text-info">
+                                New York
+                              </a>
+                              <span class="text-info"> | </span>
+                              <a class="text-info" href="https://vandis.com" target="_blank">Vandis Inc.</a>
+                            </p>
+                          </div>
+                      </div>
+                      <br />
+                      <div class="row" id="experience-row">
+                          <div class="col-md-4 div-text-align"> 
+                            <h4>Vandis Inc.</h4>
+                            <p class="text-muted font-italic">
+                              March 2017 - Feb 2018
+                            </p>
+                          </div>
+                          <div class="col-md-8 div-text-align">
+                            <p>
+                              <strong>Associate Engineer</strong><br /><br />
+                              <span>
+                                  As an associate engineer, my primary responsibilities were to enrich customer experience by providing help desk support for our managed services customer performing pro-active network monitoring and troubleshooting network performance and service impacting issues; along with which I went through a professional training curriculum with various networking technologies mainly focusing on mobility, security, network access control, route/switch, cloud computing, etc. spanning vendors across the market namely Cisco, Juniper, Aruba, Palo Alto, Google cloud etc.
+                              </span><br /><br />
+                              <a href="https://goo.gl/maps/1FHhYZoV9P6bpTA27" class="text-info" target="_blank">
+                                New York
+                              </a>
+                              <span class="text-info"> | </span>
+                              <a class="text-info" href="https://vandis.com" target="_blank">Vandis Inc.</a>
+                            </p>
+                          </div>
+                      </div>
+                      <br />
+                      <div class="row" id="experience-row">
+                          <div class="col-md-4 div-text-align"> 
+                            <h4>University at Buffalo Information technology</h4>
+                            <p class="text-muted font-italic">
+                              May 2016 - Feb 2017
+                            </p>
+                          </div>
+                          <div class="col-md-8 div-text-align">
+                            <p>
+                              <strong>Graduate Student Assistant - I.T.</strong><br /><br />
+                              <span>
+                                  As a member of the network engineering team for the University of Buffalo, we were responsible for installing access points in residential areas of the university and configure them. We were also part of a university-wide edge switch upgrade project where we were tasked with retrieving old edge switches and replacing them with newer cisco switch model at the time, whilst porting the switch configuration and cable mappings properly. The experience gained from this intern served as a gateway into the world of networking. It also gave me an architectural sense of managing and monitoring a massive campus network.
+                              </span><br /><br />
+                              <a href="https://g.page/UBuffalo?share" class="text-info" target="_blank">
+                                Buffalo
+                              </a>
+                              <span class="text-info"> | </span>
+                              <a class="text-info" href="http://www.buffalo.edu/ubit.html" target="_blank">UBIT</a>
+                            </p>
+                          </div>
+                      </div>
+                  </div>
               </div>
             </div>
-            <div id="education" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom bg-white">         
-                <div class="container">
-                    <h1>Education</h1>
-                    <br>
-                    <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                    <br>
+            <div id="education" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 bg-light">         
+                <div class="container text-center">
+                    <h2>Education</h2>
+                    <hr />
+                    <div class="container">
+                        <div class="row" id="experience-row">
+                            <div class="col-md-4 div-text-align"> 
+                              <h4>University at Buffalo</h4>
+                              <p class="text-muted font-italic">
+                                Aug 2015 - Dec 2016
+                              </p>
+                            </div>
+                            <div class="col-md-8 div-text-align">
+                              <p>
+                                <strong>Master of Science(M.S.)</strong><br />
+                                <span>
+                                Electrical, Electronics and Communications Engineering
+                                </span><br />
+                                <a href="https://g.page/UBuffalo?share" class="text-info" target="_blank">
+                                  Buffalo
+                                </a>
+                                <span class="text-info"> | </span>
+                                <a class="text-info" href="http://www.buffalo.edu" target="_blank">University at Buffalo</a>
+                              </p>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row" id="experience-row">
+                            <div class="col-md-4 div-text-align"> 
+                              <h4>Anna University</h4>
+                              <p class="text-muted font-italic">
+                                Aug 2011 - May 2015
+                              </p>
+                            </div>
+                            <div class="col-md-8 div-text-align">
+                              <p>
+                                <strong>Bachelor of Engineering</strong><br />
+                                <span>
+                                Electrical, Electronics and Communications Engineering
+                                </span><br />
+                                <a href="https://goo.gl/maps/duHrHRY2CALKK9o5A" class="text-info" target="_blank">
+                                  Chennai
+                                </a>
+                                <span class="text-info"> | </span>
+                                <a class="text-info" href="https://www.annauniv.edu/" target="_blank">Anna University</a>
+                              </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="certification" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom bg-light">         
-                <div class="container">
-                    <h1>Certification</h1>
-                    <br>
-                    <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                    <br>
+            <div id="certification" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 bg-white">         
+                <div class="container text-center">
+                  <h2>Certification</h2>
+                  <hr />
+                  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="3000">
+                          <img src="/static/img/cert/gcp_prof.png" class="d-block w-100" alt="...">
+                          <br /><br /><br /><br /><br />
+                          <div class="carousel-caption d-none d-md-block">
+                              <h5>Google Cloud Professioinal Cloud Architect</h5>
+                              <a href="https://www.credential.net/07ghrqxo?key=c0b9252d3a5bd4b737e94018b74c5461b977f2428193147144cc31121ad444d0" target="_blank">
+                                <p class="text-primary">
+                                    <u>
+                                      Verification Link
+                                    </u>
+                                </p>
+                              </a>
+                          </div>
+                        </div>
+                        <div class="carousel-item" data-interval="3000">
+                            <img src="/static/img/cert/aws_sa.png" class="d-block w-100" alt="...">
+                            <br /><br /><br /><br /><br />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Amazon Web Services Solutions Architect Associate</h5>
+                                <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-10-14&ci=AWS00940547" target="_blank">
+                                  <p class="text-primary">
+                                      <u>
+                                        Verification Link
+                                      </u>
+                                  </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="3000">
+                            <img src="/static/img/cert/aruba_acmp.png" class="d-block w-100" alt="...">
+                            <br /><br /><br /><br /><br />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Aruba Certified Mobility Professional (ACMP) V8</h5>
+                                <a href="https://www.youracclaim.com/badges/2a4d915a-65a5-4bf5-9bd2-021939e1a42f/public_url" target="_blank">
+                                  <p class="text-primary">
+                                      <u>
+                                        Verification Link
+                                      </u>
+                                  </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="3000">
+                            <img src="/static/img/cert/aruba_accp.png" class="d-block w-100" alt="...">
+                            <br /><br /><br /><br /><br />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Aruba Certified ClearPass Professional (ACCP) V6.5</h5>
+                                <a href="https://www.youracclaim.com/badges/96824f6d-a487-45a0-8ff6-0c7b9ca19939/public_url" target="_blank">
+                                  <p class="text-primary">
+                                      <u>
+                                        Verification Link
+                                      </u>
+                                   </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="3000">
+                            <img src="/static/img/cert/cisco_ccna.png" class="d-block w-100" alt="...">
+                            <br /><br /><br /><br /><br />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Cisco Certified Network Associate Routing and Switching (CCNA Routing and Switching)</h5>
+                                <a href="https://www.youracclaim.com/badges/25e1fd4b-eba0-46e5-a873-2aa767bf9b1d/public_url" target="_blank">
+                                  <p class="text-primary">
+                                      <u>
+                                        Verification Link
+                                      </u>
+                                  </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="3000">
+                            <img src="/static/img/cert/jncia.png" class="d-block w-100" alt="...">
+                            <br /><br /><br /><br /><br />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Cisco Certified Network Associate Routing and Switching (CCNA Routing and Switching)</h5>
+                                <a href="https://www.youracclaim.com/badges/4608c37b-b811-48d0-ab32-2876deba455e/public_url" target="_blank">
+                                  <p class="text-primary">
+                                    <u>
+                                      Verification Link
+                                    </u>
+                                </p>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                  </div>
                 </div>
             </div>    
-            <div id="technologies" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom bg-white">         
-                <div class="container">
+            <div id="technologies" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 bg-white">         
+                <div class="container-fluid">
                     <h1>Technologies</h1>
                     <br>
                     <p>Try to scroll this section and look at the navigation list while scrolling!</p>
@@ -162,7 +354,7 @@
                 </div>
             </div>   
             <div id="projects" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom bg-light">         
-                <div class="container">
+                <div class="container-fluid">
                     <h1>Projects</h1>
                     <br>
                     <p>Try to scroll this section and look at the navigation list while scrolling!</p>
@@ -170,7 +362,7 @@
                 </div>
             </div>
             <div id="contact" class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom bg-white">         
-                <div class="container">
+                <div class="container-fluid">
                     <h1>Contact</h1>
                     <br>
                     <p>Try to scroll this section and look at the navigation list while scrolling!</p>
@@ -178,7 +370,7 @@
                 </div>
           </div>        
           </main>
-        </div>
-      </div>
+    </div>
+  </div>
   
 {% endblock %}

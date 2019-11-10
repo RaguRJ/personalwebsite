@@ -30,6 +30,7 @@
         .nav-offset {
           top: 60px;
           /* z-index: -3; */
+          vertical-align: middle;
         }
         .spaced {
           height: 100%;
@@ -47,6 +48,40 @@
           display: flex;
           align-items: center;
           justify-content: center;
+        }
+        .div-text-align {
+          text-align: left;
+          vertical-align: middle;
+        }
+        .carousel-inner > .carousel-item > img {
+          height:400px;
+          object-fit: contain;
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+          height: 100px;
+          width: 100px;
+          outline: black;
+          background-size: 100%, 100%;
+          border-radius: 50%;
+          border: 1px solid black;
+          background-image: none;
+        }
+
+        .carousel-control-next-icon:after
+        {
+          content: '>';
+          font-size: 55px;
+          color: red;
+        }
+
+        .carousel-control-prev-icon:after {
+          content: '<';
+          font-size: 55px;
+          color: red;
+        }
+        .carousel-caption h5 {
+          color:          black !important;
         }
         </style>
   </head>
