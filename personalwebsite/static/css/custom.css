@@ -13,3 +13,35 @@
 a.nav2hover:hover {
     background-color: #80bdff;
   }
+
+img.architecture {
+    width: 100%;
+    height: auto;
+}
+/* @media (min-width: 768px) {
+    img.architecture {
+        width: 700px;
+    }
+}
+@media (min-width: 992px) {
+    img.architecture {
+        width: 900px;
+    }
+}
+@media (min-width: 1200px) {
+    img.architecture {
+        width: 1200px;
+    }
+}
+
+@media (min-width: 1500px) {
+  img.architecture {
+      width: 1500px;
+  }
+}
+
+@media (min-width: 2000px) {
+  img.architecture {
+      width: 2000px;
+  }
+} */

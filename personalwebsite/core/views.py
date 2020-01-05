@@ -15,3 +15,8 @@ def index(): # Function name to be specified in {{url_for('core.index')}}
 @core.route('/about')
 def about(): 
     return render_template('about.html')
+
+    # Creating route for the about website page
+@core.route('/resume')
+def resume(): 
+    return render_template('resume.html')
