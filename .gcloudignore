@@ -12,6 +12,7 @@
 # below:
 .git
 .gitignore
+/temp_files
 
 # Python pycache:
 __pycache__/
